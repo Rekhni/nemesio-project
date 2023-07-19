@@ -1,0 +1,410 @@
+@font-face {
+    font-family: "My Font";
+    src: url(./font/VAGRundschriftD.ttf) format(ttf);
+}
+
+body {
+    font-family: 'VAGRundschriftD', sans-serif;                                        
+}
+
+a {
+    font-family: 'VAGRundschriftD', sans-serif;                                        
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+  text-decoration: none;
+}
+
+.center {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.top {
+    height: 735px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/nemesio-000.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+}
+
+.top__logo {
+   position: relative;
+}
+
+.top__logo p {
+   position: absolute;
+   color: white;
+   left: 300%;
+   top: 70px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   letter-spacing: 0.1em;
+   font-weight: 600;
+}
+
+.logo__img {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.top__content {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.top__title {
+    font-size: 100px;
+    width: 960px;
+    font-style: italic;
+    color: white;
+}
+
+.top__button {
+    width: 450px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 40px;
+    border-color: rgb(163, 93, 229);
+    background-color: rgb(163, 93, 229);
+    color: white;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;  
+    letter-spacing: 0.2em;   
+    border: transparent;                                  
+}
+
+.top__button:hover {
+    background-color: rgb(69, 0, 134);
+    transition: 0.5s;
+}
+
+.tutech {
+    background-image: url(img/tutech.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.info__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1rem;
+}
+
+.info__title {
+    color: rgb(255, 0, 195);
+    letter-spacing: 0.3em;
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.info__title:after {
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 12%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background: rgb(255, 0, 195);
+} 
+
+.info__content p {
+    font-size: 20px;
+    width: 850px;
+    line-height: 1.7;
+}
+
+.info__img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.info__img img {
+    width: 800px;
+    height: 800px;
+    margin-bottom: 20px;
+}
+
+.info__img__name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 0;
+    position: absolute;
+    right: 100px;
+    bottom: -10%;
+}
+
+.info__img__name h2 {
+   color: rgb(255, 0, 195);
+   letter-spacing: 0.2em;
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.info__img__name p {
+    font-style: italic;
+}
+
+.services {
+    height: 700px;
+    background-color: #4e00ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.services__title {
+    font-size: 90px;
+    margin-top: 80px;
+}
+
+.services__options {
+    margin-top: 100px;
+    display: flex;
+    gap: 300px;
+}
+
+.services__options__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.services__options__img {
+    width: 150px;
+    height: 150px;
+    background-color: #2f0266;
+    position: relative;
+    border-radius: 80px;
+}
+
+
+.services__options__img img {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    width: 70px;
+}
+
+.services__options__text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.services__options__text h2 {
+    font-size: 30px;
+    
+}
+
+.services__button {
+    color: #4e00ae;
+    font-size: 20px;
+    width: 180px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.services__button:hover {
+    color: white;
+    background-color: #32026e;
+    transition: 0.3s;
+    border: transparent;
+}
+
+.review {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+    background-image: url(img/nemesio-002.png);
+}
+
+.review__title {
+    font-size: 100px;
+    color: #4e00ae;;
+}
+
+.review__text {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    width: 1050px;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    margin-top: 70px;
+}
+
+.review__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.review__author h2 {
+    color: #4e00ae;
+}
+
+.review__author p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.owl-dots {
+    display: none;
+}
+
+.contacts {
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.contacts .container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.contacts__title {
+    font-size: 100px;
+    color: #4e00ae;;
+    margin-top: 60px;
+}
+
+.contacts__data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacts__data input {
+    height: 50px;
+}
+
+.contacts__button {
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3em;
+    background-color: #4e00ae;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    border: none;
+    font-size: 15px;
+}       
+
+.contacts__button:hover {
+    transition: 0.3s;
+    background-color: #300268;
+}
+
+.form-check {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+::placeholder {
+    color: red;
+}
+
+.form-control {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form-control::placeholder {
+  color:rgb(130, 126, 126);
+}
+
+
+
+.form-check-label {
+    width: 400px;
+    text-align: justify;
+    line-height: 1.6;
+    color: rgb(130, 126, 126);
+    letter-spacing: 0.1em;  
+    font-size: 12px;
+}
+
+.form-control:focus {
+    border-color: #6b0fdb;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    border-color: #6b0fdb;
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: #6b0fdb;
+}
+
+
+.copyright {
+    background-color: #300268;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright p {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1em;
+    position: relative;
+}
+
+.copyright a i {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 2%;
+    margin-top: 16px;
+}
