@@ -431,6 +431,10 @@ a {
         width: 700px;
     }
 
+    .top__logo p {
+        display: none;
+    }
+
     .top__button {
         font-size: 22px;
         width: 380px;
@@ -476,7 +480,7 @@ a {
     }
 
     .services {
-        height: 1500px;
+        height: 1000px;
     }
 
     .services__title {
@@ -485,8 +489,18 @@ a {
 
     .services__options {
         display: flex;
-        flex-direction: column;
-        gap: 115px;
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+
+    .services__options__item {
+        gap: 25px;
+        flex-grow: 1;
+        width: 345px;
+    }
+
+    .services__options__text h2 {
+        font-size: 27px;
     }
 
     .review__title {
@@ -513,7 +527,7 @@ a {
 
 }
 
-@media (max-width: 896px) {
+@media (min-width: 768px) and (max-width: 819px) {
     .logo__img {
         width: 100px
     }
@@ -522,6 +536,10 @@ a {
         gap: 100px;
         height: 500px;
         width: 106%;
+    }
+
+    .top__logo p {
+        display: none;
     }
 
     .top__title {
@@ -632,7 +650,7 @@ a {
 
     .review__text {
         font-size: 13px;
-        width: 300px;
+        width: 250px;
     }
 
     .contacts__title {
@@ -692,3 +710,189 @@ a {
 /*# sourceMappingURL=style.css.map */
 
 
+@media (max-width: 767px) {
+
+        .logo__img {
+        width: 100px
+    }
+
+    .top__logo p {
+        display: none;
+    }
+
+    .top {
+        gap: 100px;
+        height: 500px;
+        width: 100%;
+    }
+
+    .top__title {
+        font-size: 38px;
+        width: 372px;
+    }
+
+    .top__button {
+        font-size: 15px;
+        width: 222px;
+        height: 45px;
+    }
+
+    .tutech {
+        height: 60px;
+        width: 100%;
+    }
+
+    .info {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .info__title {
+        font-size: 20px;
+    }
+
+    .info__title::after {
+        left: 45%;
+    }
+
+    .info__content {
+        gap: 15px;
+    }
+
+    .info__content p {
+        font-size: 17px;
+        line-height: 1.3;
+        width: 300px;
+    }
+
+    .info__img {
+        margin-right: 35px;
+    }
+
+    .info__img img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 14px;
+    }
+    
+    .info__img__name {
+        bottom: -15%;
+        right: 0;
+    }
+
+    .info__img__name h2 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .info__img__name p {
+        font-size: 12px;
+    }
+
+    .services {
+        height: 950px;
+        width: 100%;
+    }
+
+    .services__title {
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
+    .services__options {
+        margin-top: 50px;
+        gap: 55px;
+    }
+
+    .services__options__item {
+        gap: 25px;
+    }
+
+    .services__options__img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .services__options__img img {
+        width: 57px;
+        right: 22px;
+        bottom: 20px;
+    }
+
+    .services__options__text h2 {
+        font-size: 20px;
+    }
+
+    .services__button {
+        font-size: 15px;
+        width: 135px;
+    }
+
+    .review__title {
+        font-size: 45px;
+    }
+
+    .review__text {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .review__author  h2 {
+        font-size: 15px;
+    }
+
+    .review__author p {
+        font-size: 10px;
+    }
+
+    .contacts__title {
+        font-size: 40px;
+        margin-right: 20px;
+    }
+
+    .form-control {
+        width: 300px;
+    }
+
+    .contacts {
+        width: 100%;
+    }
+
+    .contacts .container {
+        gap: 35px;
+    }
+
+    .contacts__content {
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .contacts__button {
+        margin-top: 40px;
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        margin-bottom: 40px;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+    .copyright a i {
+        font-size: 20px;
+        right: -2%;
+    }
+
+    .copyright p {
+        font-size: 8px;
+    }
+    
+    .form-check {
+        display: block;
+    }
+
+    .form-check-label {
+        width: 250px;
+    }
+
+}
