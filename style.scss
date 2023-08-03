@@ -431,9 +431,9 @@ a {
         width: 700px;
     }
 
-    .top__logo p {
-        display: none;
-    }
+    // .top__logo p {
+    //     display: none;
+    // }
 
     .top__button {
         font-size: 22px;
@@ -528,6 +528,7 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 819px) {
+
     .logo__img {
         width: 100px
     }
@@ -537,6 +538,7 @@ a {
         height: 500px;
         width: 106%;
     }
+    
 
     .top__logo p {
         display: none;
@@ -650,7 +652,7 @@ a {
 
     .review__text {
         font-size: 13px;
-        width: 250px;
+        width: 600px;
     }
 
     .contacts__title {
@@ -662,17 +664,22 @@ a {
         width: 300px;
     }
 
+    .form-check {
+        display: flex;
+    }
+
     .contacts {
         width: 106%;
     }
+
+
 
     .contacts .container {
         gap: 35px;
     }
 
     .contacts__content {
-        flex-direction: column;
-        margin-left: 25px;
+        flex-direction: flex;
         gap: 6px;
     }
     
@@ -716,8 +723,16 @@ a {
         width: 100px
     }
 
+    .top__logo {
+        position: relative;
+    }
+
     .top__logo p {
-        display: none;
+        position: absolute;
+        left: 200px;
+        font-size: 10px;
+        top: 38px;
+
     }
 
     .top {
@@ -866,6 +881,14 @@ a {
         flex-direction: column;
         gap: 6px;
     }
+
+    .contacts__data {
+        margin-left: 20px;
+    }
+
+    textarea.form-control {
+        margin-left: 20px;
+    }
     
     .contacts__button {
         margin-top: 40px;
@@ -878,17 +901,22 @@ a {
         width: 100%;
     }
 
+
+
     .copyright a i {
         font-size: 20px;
-        right: -2%;
+        right: 3%;
+        position: absolute;
     }
 
     .copyright p {
+        position: relative;
         font-size: 8px;
     }
     
     .form-check {
         display: block;
+        margin-left: 20px;
     }
 
     .form-check-label {
