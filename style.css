@@ -452,7 +452,7 @@ a {
   .top {
     gap: 100px;
     height: 500px;
-    width: 106%;
+    width: 100%;
   }
   .top__logo p {
     display: none;
@@ -468,7 +468,7 @@ a {
   }
   .tutech {
     height: 60px;
-    width: 106%;
+    width: 100%;
   }
   .info {
     padding-top: 60px;
@@ -508,8 +508,8 @@ a {
     font-size: 12px;
   }
   .services {
-    height: 950px;
-    width: 106%;
+    height: 680px;
+    width: 100%;
   }
   .services__title {
     font-size: 35px;
@@ -556,7 +556,7 @@ a {
     display: flex;
   }
   .contacts {
-    width: 106%;
+    width: 100%;
   }
   .contacts .container {
     gap: 35px;
@@ -572,11 +572,11 @@ a {
     margin-bottom: 40px;
   }
   .copyright {
-    width: 106%;
+    width: 100%;
   }
   .copyright a i {
     font-size: 20px;
-    right: -2%;
+    right: 5%;
   }
   .copyright p {
     font-size: 8px;
